@@ -1,0 +1,54 @@
+import random
+qustion=1
+#welcome to my programe here you can calculates distance time and speed 
+#this also gives you a random qustion so you can put it to use 
+
+print("This is a simple Program that calculates the Speed, Distance and Time!")
+qustion=input("Please choose a number to find out: 1. Speed 2. Distance 3. Time")
+#this is my random qustion genorater
+import random 
+
+
+#thes
+	
+randnum =1
+
+print("choose a qustion(spell it the same)")
+print("qustion1, qustion2, qustion3")
+qus=input("Which questin do you want:")
+
+
+if qustion == "1":
+	time()
+	print("johnny went to the shop it took him 30 mins while he was travling at 10 what was his time")
+
+elif qustion == "2":
+	speed()
+	print("linda was going to lusk what was the distance if she was going 30 and her time was 15")
+	
+elif  qustion == "3" :
+  distance()
+	print("harry was going to swords his time was 30 and his distance was 500")
+
+#these are my funtions to make the code work
+def distance():
+  speed=(int(input('type your speed')))
+  time=(int(input('type your time')))
+  distance = speed * time
+  print(distance)
+
+#now calculate speed 
+def speed():
+  time=(int(input('type your time')))
+  distance=(int(input('type your distance')))
+  speed = time * distance
+  print(speed)
+
+#calculate time
+def time():
+	distance=(int(input('type your distance ')))
+	speed=(int(input('type your speed')))
+	time = distance * speed
+	print(time)
+	
+#choose a qustion(spell it the same)qustion1, qustion2, qustion3 Which questin do you want:
