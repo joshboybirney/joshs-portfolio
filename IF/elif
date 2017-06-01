@@ -1,0 +1,15 @@
+chocie=input("type an acid")
+if acid == "baking soda":
+  print("you are wrong")
+elif acid == "water":
+  print("you are wrong")
+elif acid == "milk":
+  print("your wrong")
+elif acid == "vinger":
+  print("you are right")
+elif acid == "lemon jucie":
+  print("you are right")
+elif acid == "battery acid":
+  print("you are right")
+else:
+	print("you are wrong")
