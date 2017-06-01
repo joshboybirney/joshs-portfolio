@@ -1,0 +1,22 @@
+print('welcome to are study planner')
+
+
+subject = input("what subject do you want to study")
+
+if subject == "french":
+	print("spend 20 mins")
+	
+elif subject == "irish":
+	print("spend 15 mins looking at keywords")
+	
+elif subject == "maths":
+	print("spend time doing sums your unsure of")
+	
+elif subject == "history":
+	print("look over names and dates")
+	
+elif subject == "georphy":
+	print("look at digrams")
+	
+elif subject == "cspe":
+	print("look over mindmaps")
