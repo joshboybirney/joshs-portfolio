@@ -1,0 +1,30 @@
+import sound 
+sound.play_effect('piano:E3')
+
+import sound 
+sound.play_effect('piano:E3')
+
+import sound 
+sound.play_effect('piano:E3')
+
+
+import sound 
+sound.play_effect('piano:E3')
+
+import sound 
+sound.play_effect('piano:E3')
+
+import sound 
+sound.play_effect('piano:E3')
+
+import sound 
+sound.play_effect('piano:E3')
+
+import sound 
+sound.play_effect('piano:G3')
+
+import sound 
+sound.play_effect('piano:C3')
+
+import sound 
+sound.play_effect('piano:D3')
